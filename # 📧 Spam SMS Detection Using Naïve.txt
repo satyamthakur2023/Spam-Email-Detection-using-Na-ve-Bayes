@@ -1,0 +1,97 @@
+# 📧 Spam SMS Detection Using Naïve Bayes
+
+## 📝 Overview
+
+This project uses the **UCI Spam SMS Dataset** to build a spam detection model using **Multinomial Naïve Bayes**, a probabilistic machine learning algorithm ideal for text classification. The goal is to classify SMS messages as either **spam** or **ham** (not spam).
+
+---
+
+## 📂 Dataset Information
+
+- **Source:** UCI Machine Learning Repository (original `spam.csv`)
+- **Features:**
+  - `v1`: Label (`ham` or `spam`)
+  - `v2`: SMS message text
+
+---
+
+## 🧪 Tools and Libraries Used
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Regular Expressions (re)
+
+---
+
+## 🧹 Data Preprocessing
+
+1. Dropped irrelevant or missing rows
+2. Renamed columns: `v1` ➝ `label`, `v2` ➝ `message`
+3. Converted all messages to lowercase
+4. Removed non-alphabetic characters
+5. Applied whitespace normalization
+
+---
+
+## ⚙️ Feature Extraction
+
+Used **TF-IDF Vectorizer** to convert text into numeric vectors:
+- Removed English stop words
+- Limited features to 3000 most important words
+
+---
+
+## 🧠 Model
+
+- **Classifier:** Multinomial Naïve Bayes
+- **Why:** Efficient and accurate for text classification with word counts or TF-IDF scores
+
+---
+
+## 🧪 Evaluation Metrics
+
+- **Accuracy Score**
+- **Precision, Recall, F1-Score**
+- **Classification Report**
+
+Example Output:
+Accuracy: 97.89%
+
+Classification Report: precision recall f1-score support
+
+markdown
+Copy
+Edit
+     Ham       0.99      0.99      0.99       144
+    Spam    Accuracy: 97.89%
+
+
+---
+
+## 🧾 How to Run
+
+1. Upload `spam.csv` to Google Colab or link via Google Drive.
+2. Run each step of the notebook sequentially.
+3. Observe the output metrics to evaluate model performance.
+
+---
+
+## 📈 Possible Improvements
+
+- Hyperparameter tuning
+- Deep learning models (LSTM, BERT)
+- Deploy with Gradio or Streamlit as a web app
+- Add confusion matrix visualization
+
+---
+
+## ✅ Conclusion
+
+The Naïve Bayes model achieves strong performance with simple preprocessing and TF-IDF vectorization. It’s an efficient solution for real-time SMS spam detection.
+
+---
+
+**Author: Satyam Thakur 
+**Date :29 April 2025**
