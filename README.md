@@ -131,3 +131,9 @@ weighted avg       0.98      0.98      0.98       168
 This project is open-source and available under the **MIT License**.
 
 ---
+🤝 Connect With Us
+We’d love to hear from you! Feel free to connect with us for feedback, suggestions, or collaboration opportunities.
+
+Follow Us on LinkedIn:
+
+🔗 www.linkedin.com/in/satyam-thakur-674ba9330
