@@ -76,7 +76,7 @@ pip install pandas numpy scikit-learn matplotlib seaborn
    - You can either **clone** this repository using Git or **download** it as a ZIP file.
    
    ```bash
-   git clone https://github.com/your-username/Spam-Email-Detection-using-Naive-Bayes.git
+   git clone https://github.com/satyamthakur2023/Spam-Email-Detection-using-Naive-Bayes.git
    ```
 
 2. **Upload the Dataset**:
@@ -122,7 +122,7 @@ weighted avg       0.98      0.98      0.98       168
 
 **Name**: Satyam Thakur 
 **College/University**:LLoyd institute of technology and engineering
-**Date**: April 2025
+**Date**:29 April 2025
 
 ---
 
